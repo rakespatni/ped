@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Physical health education NITC</title>
+  <meta name="description" content="NIT Calicut Physical Health Education website" />
+  <meta name="keywords" content="nitc,phed" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+     <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+	 <script type="text/javascript" src="js/menu.js"></script>
+	 <script type="text/javascript" src="js/slideshow.js"></script>
+	 <script type="text/javascript" src="js/cufon-yui.js"></script>
+	 <script type="text/javascript" src="js/Arial.font.js"></script>
+	 <script src="js/check.js"></script>
+	 <script type="text/javascript">
+		Cufon.replace('h1,h2,h3,h4,h5,#menu,#copy,.blog-date');
+	 </script>
+	 <script type="text/javascript" src="js/fancyzoom.min.js"></script>
+	 <script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('div.photo a').fancyZoom({directory: 'images/zoom', scaleImg: true, closeOnClick: true});
+		});
+	 </script>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <!--<h1><a href="index.html">simple<span class="logo_colour">style_banner</span></a></h1> -->
+          <h2></h2>
+        </div>
+      </div>
+      
+    </div>
+	<!--<div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on >
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Examples</a></li>
+          <li><a href="page.html">A Page</a></li>
+          <li><a href="another_page.html">Another Page</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div-->
+	<div id="menutab">
+  			     <div id="Menu">	
+				 <ul><li><a  href="index.html">HOME</a></li></ul>
+			    	 <ul><li><a href="#" target="_self">PEOPLE</a>
+			    	 	<ul>
+			    	 		<li><a href="people.php">Faculty</a></li>
+			    	 		<li><a href="staff.php">Staff</a></li>
+			    	 	</ul>
+			    	 	</li>
+			    	 </ul>
+			    	 <ul>
+			    	 	<li><a href="#" >TEAMS&nbsp&nbsp&nbsp</a>
+			    	        <ul >
+			    	        	<li><a href="">Atheletics</a></li>
+			    	        	<li><a href="#">Football</a></li>
+			    	        	<li><a href="#">Vollyball</a></li>
+			    	        	<li><a href="#">Cricket</a></li>
+			    	        	<li><a href="#">Badminton</a></li>
+			    	        	<li><a href="#">Handball</a></li>
+			    	        	<li><a href="#">Hockey</a></li>
+			    	        </ul>
+			    	        </li>
+			    	 </ul>
+			
+			    	 <ul><li><a href="news.php?page=0" >NEWS</a></li>
+			    	        <li><a href="./history.php" target="_self">HISTORY</a></li></ul>
+			    	 <ul><li><a href="course.php" target="_self">COURSE</a></li></ul>
+			    	 <ul><li><a href="facilities.php" target="_self">FACILITIES</a></li></ul>
+			    	 <ul><li><a href="activities.php" target="_self">ACTIVITIES</a></li></ul>    
+    				 <br class="clearFloat" />
+			</div>
+	</div>
+			<!-- its here -->
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+	  <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>Login Section</h3>
+             <p class="input">
+			    <form action="login.php" method="post" id="loginForm">
+					    UserName: <input type="text" name="user"><br>
+					    Password: <input type="password" name="pass"><br>
+					    UserType: <select name="usertype" form="loginForm" >
+					    		<option value="student">Student</option>
+					    		<option value="coach">Coach</option>
+					    		<option value="faculty">Faculty</option>
+					    		<option value="admin">Admin</option>
+					    	      </select><br><br>
+					    <input type="submit" name="submit" value="Submit">&nbsp;&nbsp;&nbsp;
+					    <input type="reset" name="reset" value="Reset Details">
+			    </form>
+					  </p>
+            
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Reach Us!</h3>
+            <p>Click here --> <a href="map.jpg">Go to map</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h2>Suggestion Section</h2>
+            <p> 
+						<form action="mail2.php" method="post">
+						
+						<select name="type" id="stype">
+								<option value="suggestion">Suggestion</option>
+								<option value="complaint">Complaint</option>
+							</select><br><br />
+							<textarea name="suggestion" rows="4" cols="20" placeholder="Describe your valuable suggestion here...">
+</textarea><br />
+							<input type="submit" value="Submit Suggestion">
+						</form>
+			</p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+       <p>The  department of physical education had existed right from the inception of Calicut REC in 1962. The department had one teacher, Mr. K M K Ahamed with 2 markers to assist him. Mr. Ahamed tragically passed away due to illness while in service and other subject teachers were standing in temporarily till 2 regular Lecturers namely,  M/S  T.M. Abdurahiman and John Philip, took charge in 1971.
+	   Dr. A.M. Najeeb joined the department in October,1976 in place of John Philip who opted out of the institution for domestic reasons. Sri. Abdurahiman retired as Asst. Professor in  July, 2002 and was  replaced by  Mr. Sunil M.S who joined as Lecturer in August 2005. The duo of Dr. Najeeb and Mr. Sunil continues as on date. The two regular markers in the department M/S Shanku Francis and K.Ramadasan also retired from service during 1999 and 2005 respectively. They have not been replaced yet and the department is makeshifting with temporary hands.</p>
+ 					<h2><u>Objectives and Motto</u></h2>
+ 					<p>Right from inception, the department of physical education has maintained its goal and motto as  Total Fitness on the Campus. It still remains so in the NITC mode.
+
+    Till the year 2002, as Calicut REC under University of Calicut, Physical education was a Voluntary subject with only those students who wished participated. 
+	But the cream of sports men and women participated and good teams were prepared and fielded for university, district, state and national tournaments with satisfactory results.
+	The students then enjoyed incentives like duty leaves and sports sessional marks which certainly motivated them. How ever, we were never near our objective of total fitness due to smaller participation level. 
+	This, we tried making up with campus opens with small amount of success. The transformation to NIT Calicut has brought about a vast change with Physical education finding its rightful place in the curriculum and students flocking in great numbers to the sports infrastructure. 
+	The condition has become so overwhelming that no undergraduate student leaves the institute with out once passing through the corridors of physical education. The desired quantum of participation has been achieved and we can proudly boast that we have  very nearly  accomplished  our objective. 
+	How ever, the participation of our teams in external tournaments has come down considerably. 
+	Academic constraints together with the lack of incentives prevent even good performers from taking part in competitive events. But on-campus activities has never been so good.</h4></p>
+       <h2><u>Contact Information</u></h2><br>
+ 					<table font-size="1.0em" >
+ 					<tr>
+ 					<td class="left">Email</td>
+ 					<td class="right">:	najeeb@nitc.ac.in</td>
+ 					</tr>
+ 					<tr>
+ 					<td class="left">Contact No</td>
+ 					<td class="right">:	+919447165767</td>
+ 					</tr>
+					<tr>
+ 					<td class="left">Mailing Address</td>
+ 					<td class="right">:Dept. of Physical Education<br>National Institute of Technology Calicut,<br>Calicut-673601</td>
+ 					</tr>  
+					</table>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+	  <p>Website of NIT Calicut Physical Education Dept.</p>
+      <p><a href="index.html">Old site</a> | <a href="examples.html"></a> | <a href="page.html">credits</a> | <a href="another_page.html">NITC home site</a> | <a href="contact.html">Contact Us</a></p>
+      <p>Copyright @nitc 2014 </p>
+    </div>
+  </div>
+</body>
+</html>
